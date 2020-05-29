@@ -1,0 +1,11 @@
+name: demo
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.7.3
+  - pip:
+    - tensorflow==2.2.0
+    - keras==2.3.1
+    - mlflow==1.8.0
